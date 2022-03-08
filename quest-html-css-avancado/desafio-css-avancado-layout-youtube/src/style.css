@@ -62,38 +62,34 @@
     margin: 10px 0;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 540px){
     .conteudo-pagina {
         display: block;
         padding: 10px;
         margin-top: 0;
     }
 
-    .video-1 img {
-        width: 100%;
-        
+    .video-1 img{
+        width: 100%;        
     }
 
-    .videos-lateral img {
+    .videos-lateral img{
         width: 100%;
         padding: 10px 0;
     }
 
-    .videos-lateral .lateral {
-        flex-direction: column;
-        
+    .videos-lateral .lateral{
+        flex-direction: column;        
     }
 
     .videos-lateral .lateral .titulo-lateral{
         align-self: flex-start;
-        line-height: 10px;
-        
+        line-height: 10px;        
     }
 
-    .videos-lateral .lateral .titulo-lateral  p {
+    .videos-lateral .lateral .titulo-lateral p{
         display: inline;
-        margin-right: 3px;
-        
+        margin-right: 3px;        
     }
 
 }
